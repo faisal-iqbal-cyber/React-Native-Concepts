@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "791003294313",
+    "firebase_url": "https://cravebite-c263d-default-rtdb.firebaseio.com",
+    "project_id": "cravebite-c263d",
+    "storage_bucket": "cravebite-c263d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791003294313:android:a8161d62932f5ee27d10f8",
+        "android_client_info": {
+          "package_name": "com.cravebite"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs_-IvxwVNHtQUvpjmRdANYqUVhgDExi0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

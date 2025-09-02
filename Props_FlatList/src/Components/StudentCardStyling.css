@@ -1,0 +1,14 @@
+.student-card {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+    font-size: 20px;
+    color: black;
+  }
+  .div3{
+    background-color: #2f2748
+
+;
+    border-color: black;
+    border-radius: 5px solid black;
+  }

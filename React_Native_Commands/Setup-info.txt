@@ -1,0 +1,9 @@
+npm install -g npm@10.2
+
+npx create-expo-app@latest
+
+cd project_name
+
+npx expo start
+
+npm run reset-project

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Manipulation</title>
+    <link rel="stylesheet" href="Style.css">
+    
+    
+</head>
+<body>
+    <form>
+        <div>
+            <label for="item">Item:</label>
+            <input type="text" name="item" id="item">
+
+        </div>
+        <br>
+        <div>
+            <label for="description">Description:</label>
+            <input type="text" name="description" id="description">
+
+        </div>
+        <br>
+        <div>
+            <label for="price">Price:</label>
+            <input type="text" name="price" id="price">
+
+        </div>
+        <br>
+        <div>
+            <label for="category">category:</label>
+            <select name="category" id="category">
+                <option value="">---Select Category</option>
+                <option value="electronics">Electronice</option>
+                <option value="cosmetics">Cosmetics</option>
+                <option value="food">Food</option>
+                <option value="cothing">Clothing</option>
+            </select>
+
+        </div>
+        <br>
+        <label for="martialStatus">Married:</label>
+        <br>
+        <input type="radio" name="martialStatus" value="Yes">
+        <label for="martialYes">Yes</label>
+        <br>
+        <input type="radio" name="martialStatus" value="No">
+        <label for="martialNo">No</label>
+        <br>
+
+        <input type="checkbox" name="terms" id="terms">
+        <label for="terms">Accept the terms and conditions</label>
+
+
+        <br>
+        <button type="button" onclick="createTasks()">Create Task</button>
+        
+    </form>
+    <div id="tasks">
+
+    </div>
+
+    <script type="text/javascript" src="app.js"></script>
+    
+</body>
+</html>

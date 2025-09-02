@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb</title>
+</head>
+<body>
+    <h1 id="light">Light</h1>
+    <button id="button" type="button" onclick="turnLight()">Turn ON</button>
+
+    <script>
+        function turnLight(){
+            const Headingtext=document.getElementById('light')
+            const buttonText=document.getElementById('button')
+
+            if(buttonText.textContent==="Turn ON"){
+                buttonText.textContent="Turn OFF"
+                Headingtext.textContent="Light is ON"
+
+            }else if(buttonText.textContent==="Turn OFF"){
+                buttonText.textContent="Turn ON"
+                Headingtext.textContent="Light is OFF"
+
+            }
+        }
+    </script>
+    
+</body>
+</html>

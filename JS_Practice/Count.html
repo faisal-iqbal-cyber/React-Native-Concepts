@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count</title>
+</head>
+<body>
+    <h1>Counter</h1>
+    <h3 id="upcount">Count: 0</h3>
+    <button id="increment" type="button" onclick="CounterUP(1)">Incrementor</button>
+    <br><br>
+     <h3 id="downcount">Count: 0</h3>
+    <button id="decrement" type="button" onclick=" CounterDown(-1)">Decrementor</button>
+    <br><br>
+    <button id="reset" type="button" onclick="Reset()" >Reset</button>
+
+    <script>
+        var countUp=0;
+         var countDown=0;
+         const countUpText=document.getElementById('upcount')
+         const countDownText=document.getElementById('downcount')
+
+        function CounterUP(number){
+            countUp+=number
+            countUpText.textContent="Count : "+countUp;
+
+        }
+        function CounterDown(number){
+            countDown+=number
+            countDownText.textContent="Count : "+countDown;
+
+        }
+         function Reset(number){
+           countUpText.textContent="Count : "+0;
+            countDownText.textContent="Count : "+0;
+            countUp=0;
+            countDown=0;
+
+        }
+
+    </script>
+
+    
+</body>
+</html>
